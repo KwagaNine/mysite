@@ -1,0 +1,190 @@
+<html lang="ru"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="cid:css-0697adfd-8b49-4150-b150-d36239dc5a29@mhtml.blink"><link rel="stylesheet" type="text/css" href="cid:css-12822d8c-f612-41e4-99f2-979624987f2d@mhtml.blink">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Свадьба Бобковых: Братва, гуляем!</title>
+    <!-- Chosen Palette: White & Gold on Soft Lilac -->
+    <!-- Application Structure Plan: Создана одностраничная скролл-страница, которая рассказывает историю приглашения по главам. Структура (вступление, герои, место, дресс-код, программа, финал, подтверждение) ведет пользователя через повествование, постепенно раскрывая детали и усиливая тематическое погружение. Этот подход выбран для максимального вовлечения и создания "вау-эффекта", превращая простое приглашение в интерактивный опыт. -->
+    <!-- Visualization & Content Choices: Информация: Весь контент приглашения. -> Цель: Создать аутентичную атмосферу 90-х. -> Метод: Использование тематических изображений, GIF, стилизованных шрифтов, цветовой палитры и скролл-анимаций. -> Взаимодействие: Плавный скроллинг с появлением элементов. -> Обоснование: Визуальные элементы и анимация создают динамичное и запоминающееся приглашение, полностью соответствующее теме. -> Библиотеки/Методы: Tailwind CSS для верстки, Vanilla JS для анимаций. -->
+    <!-- CONFIRMATION: NO SVG graphics used. NO Mermaid JS used. -->
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet">
+    
+</head>
+<body class="antialiased">
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex flex-col items-center justify-center text-center p-4 relative overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://i.postimg.cc/kMx52Qcp/photo-2025-08-13-16-09-09.jpg" alt="" class="w-full h-full object-cover opacity-30">
+            <div class="absolute inset-0 bg-black/60"></div>
+        </div>
+        <div class="relative z-10 scroll-animate visible">
+            <h1 class="text-5xl md:text-8xl font-extrabold text-white tracking-widest" style="font-family: 'Bebas Neue', cursive;">БРАТВА, ГУЛЯЕМ!</h1>
+            <h2 class="text-2xl md:text-4xl mt-4 text-gold">Свадьба Бобковых</h2>
+            <p class="mt-8 text-lg text-white">Прокрутите вниз, чтобы узнать подробности</p>
+            <div class="text-3xl mt-4 animate-bounce text-white">▼</div>
+        </div>
+    </section>
+
+    <!-- Intro Section -->
+    <section class="py-20 px-4 bg-purple-200">
+        <div class="container mx-auto max-w-4xl text-center scroll-animate visible">
+            <h2 class="section-title">ОПЕРАЦИЯ "СВАДЬБА"</h2>
+            <div class="separator"></div>
+            <div class="card p-8 text-xl leading-relaxed text-white">
+                <p>Дорогие семья и друзья!</p>
+                <p class="mt-4">Мы организуем мероприятие по случаю нашей свадьбы! Это будет не стандартная церемония, а настоящая <span class="font-bold text-gold">ВЕЧЕРИНКА В СТИЛЕ 90Х!</span></p>
+                <p class="mt-4">Готовьтесь к полному погружению!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Couple Section -->
+    <section class="py-20 px-4 bg-purple-300">
+        <div class="container mx-auto max-w-4xl text-center scroll-animate visible">
+            <h2 class="section-title">ГЛАВНЫЕ ГЕРОИ</h2>
+            <div class="separator"></div>
+            <p class="text-2xl mb-8 text-black">Петр и Ангелина Бобковы – теперь одна семья, и они готовы устроить настоящий беспредел!</p>
+            <div class="card overflow-hidden">
+                <img src="https://i.postimg.cc/KvGgFp2N/photo-2025-08-13-20-12-12.jpg" alt="Петр и Ангелина" class="w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section class="py-20 px-4 bg-purple-200">
+        <div class="container mx-auto max-w-4xl text-center scroll-animate visible">
+            <h2 class="section-title">СТРЕЛКА НАЗНАЧЕНА</h2>
+            <p class="text-xl italic mb-8 text-black">"Место встречи изменить нельзя"</p>
+            <div class="separator"></div>
+            <div class="md:flex md:space-x-8 space-y-8 md:space-y-0">
+                <div class="card p-6 flex-1 text-white">
+                    <h3 class="text-3xl text-gold mb-2">ДАТА И ВРЕМЯ</h3>
+                    <p class="text-5xl font-bold">16.09.2025</p>
+                    <p class="text-2xl"></p>
+                    <p class="text-3xl mt-4">13:00</p>
+                </div>
+                <div class="card p-6 flex-1 text-white">
+                    <h3 class="text-3xl text-gold mb-2">МЕСТО</h3>
+                    <p class="text-2xl">Резиденция Бобковых</p>
+                    <p class="text-lg mt-2">Деревня Струково,<br>Шестой проезд, д.9</p>
+                </div>
+            </div>
+             <div class="card overflow-hidden mt-8">
+                <img src="https://i.postimg.cc/d3qckysb/brigada-druzja.gif" alt="Место встречи" class="w-full h-auto object-cover">
+            </div>
+        </div>
+    </section>
+
+    <!-- Dress Code Section -->
+    <section class="py-20 px-4 bg-purple-300">
+        <div class="container mx-auto max-w-6xl text-center scroll-animate visible">
+            <h2 class="section-title">ДРЕСС-КОД: ПО ПОНЯТИЯМ</h2>
+            <div class="separator"></div>
+            <div class="card p-8 mb-10 text-white">
+                <h3 class="text-4xl text-gold mb-4">Бандиты и их жены</h3>
+                <p class="text-lg max-w-3xl mx-auto">Кожаные куртки, леопард, кресты и цепи, очки, клетчатые рубашки, пиджаки, свитера, начесы, цветные повязки на голову, колготки в сеточку - простор выбора костюмов неограничен!</p>
+            </div>
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                <img src="https://i.postimg.cc/W3ssrKSY/photo-7-2025-08-13-16-29-22.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/rmgM9JPV/photo-4-2025-08-13-16-29-21.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/Kv1xntrb/photo-3-2025-08-13-16-29-21.jpg" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/vHCMXD3V/photo-9-2025-08-13-16-29-22.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/wvWYNB13/photo-10-2025-08-13-16-29-22.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/qM3WJwxN/photo-2-2025-08-13-16-29-21.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/Tw1HZJPY/photo-5-2025-08-13-16-29-21.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+                <img src="https://i.postimg.cc/6QpXpRQF/photo-8-2025-08-13-16-29-22.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300" https:="" i.postimg.cc="">
+                <img src="https://i.postimg.cc/PxBsyRMk/photo-1-2025-08-13-16-29-21.jpg" alt="" class="w-full h-full object-cover rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section class="py-20 px-4 bg-purple-200">
+        <div class="container mx-auto max-w-4xl text-center scroll-animate visible">
+            <h2 class="section-title">ПРОГРАММА ВЕЧЕРА</h2>
+            <div class="separator"></div>
+            <p class="text-lg max-w-3xl mx-auto mb-10 text-black">Каравай, баянист, сумасшедшие прически, хиты Руки Вверх и Верки Сердючки, непередаваемая атмосфера, а также веселые конкурсы, море тостов и <span class="text-black font-bold text-xl">ГОРЬКО!</span></p>
+
+            <div class="lg:flex lg:space-x-12 items-start text-white">
+                <!-- Timeline -->
+                <div class="flex-1 text-left">
+                     <h3 class="text-4xl text-center mb-8 text-black">Тайминг</h3>
+                    <div class="relative timeline p-4 pl-12">
+                        <div class="relative timeline-item mb-8 card p-4">
+                            <h4 class="text-2xl text-gold">13:00 - Сбор гостей</h4>
+                            <p>Начало движухи, сбор братвы.</p>
+                        </div>
+                        <div class="relative timeline-item mb-8 card p-4">
+                            <h4 class="text-2xl text-gold">14:00 - Встреча молодых</h4>
+                            <p>Главные герои прибывают на место.</p>
+                        </div>
+                        <div class="relative timeline-item mb-8 card p-4">
+                            <h4 class="text-2xl text-gold">15:00 - Банкет</h4>
+                            <p>Время перекусить по-серьезному.</p>
+                        </div>
+                        <div class="relative timeline-item mb-8 card p-4">
+                            <h4 class="text-2xl text-gold">16:00 - Конкурсы</h4>
+                            <p>Проверим, кто тут самый дерзкий.</p>
+                        </div>
+                        <div class="relative timeline-item card p-4">
+                            <h4 class="text-2xl text-gold">17:00 - Отрыв башки</h4>
+                            <p>Танцы, тосты и веселье с тамадой.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Host -->
+                <div class="flex-1 mt-12 lg:mt-0">
+                    <h3 class="text-4xl text-center mb-8 text-white">Это если что наш ведущий</h3>
+                    <div class="card p-4">
+                        <img src="https://i.postimg.cc/fRvXY4f1/photo-2025-08-13-16-49-13.jpg" alt="Ведущий" class="w-full h-auto object-cover rounded-lg shadow-lg">
+                        <p class="mt-4 text-xl">Этот колоритный мужчина не даст вам заскучать!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Section -->
+    <section class="py-20 px-4 bg-purple-300">
+        <div class="container mx-auto max-w-2xl text-center scroll-animate visible">
+            <div class="relative card overflow-hidden">
+                <img src="https://i.postimg.cc/Pf8w2vMW/scale-1200.jpg" alt="Стас Борецкий" class="w-full h-auto">
+                <div class="absolute inset-0 bg-black/40 flex items-center justify-center">
+                    <h2 class="text-white text-5xl md:text-7xl font-extrabold text-center p-4" style="font-family: 'Bebas Neue', cursive; text-shadow: 3px 3px 6px #000;">ОЧЕНЬ ЖДЕМ!</h2>
+                </div>
+            </div>
+            <div class="card p-6 mt-8 text-white">
+                 <p class="text-xl">Готовьтесь к незабываемому отрыву! Мы ждем каждого из вас, чтобы вместе создать легендарную свадьбу 90-х!</p>
+                 <p class="text-2xl mt-4 font-bold text-gold">- Петр и Ангелина -</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section class="py-20 px-4 bg-purple-200">
+        <div class="container mx-auto max-w-2xl text-center scroll-animate visible">
+            <div class="card p-8">
+                <p class="text-white text-lg mb-4">
+                   P.S. Пожалуйста, сообщите, что вы придете на наш праздник по кнопке ниже. 
+                    Укажите ваше ФИО и + 1, если есть.
+                </p>
+                <a href="https://t.me/Weddinglpbot?start=190278" target="_blank" class="inline-block bg-white text-black font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-transform duration-300">
+                    придем, любимки
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="text-center py-4 text-gray-500 text-sm bg-purple-300">
+        <p></p>
+    </footer>
+
+    
+
+
+
+</body></html>
